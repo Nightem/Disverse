@@ -1,0 +1,25 @@
+$light-blue: #6bd9c5;
+
+.authHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    gap: 1rem;
+
+    &__subtextLink {
+        text-decoration: none;
+        color: $light-blue;
+    }
+
+    &__socials {
+        gap: 1rem;
+        display: flex;
+
+        &-coloured {
+            text-decoration: none;
+            color: $light-blue;
+        }
+    }
+}
