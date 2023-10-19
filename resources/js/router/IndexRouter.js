@@ -3,12 +3,12 @@ const routes = [
     {
         path: '/',
         name: 'Home',
-        component: () => import("../views/HomeView.vue")
+        component: () => import("../views/serverlist/homePage/HomeView.vue")
     },
     {
-        path: '/about',
-        name: 'About',
-        component: () => import("../views/AboutView.vue")
+        path: '/callback',
+        name: 'callback',
+        component: () => import("../views/appComponents/authenticatingComponent.vue")
     }
 ]
 const router = createRouter({
